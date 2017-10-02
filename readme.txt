@@ -29,8 +29,28 @@ ocm59231572
 ocm52381684
 701325822
 
-Homework - how can you adjust the script to get rid of the ocm prefix in two of the items?
-Next steps: regular expressions: how could you get rid of any non-numerals?
+
+Activity 1:
+How can you adjust the script to get rid of the ocm prefix in two of the items?
+
+
+Activity 2:
+Regular expressions can be used to evaluate a text string (like an OCLC number), 
+look for a pattern, and modify the text string based on that pattern.
+
+For example, a regular expression that would only match numbers looks like this:
+
+[^0-9]
+
+Python has a regular expression library called ‘re’ that you can include in your script in order to use Regular Expressions.  Take a look at the file  oclc-regex.py and run it in your command line.  What does this use of re do to the OCLC numbers in in the file?
+
+Activity 3:
+Like re, csv is a Python library.  It makes it easy to output data to a CSV file.
+
+Run the oclc-regex-csv script and see what happens (hint: look in the directory where you’ve downloaded this code for a file that wasn’t there before).
+
+Can you modify the script (oclc-regex-csv) to output author information from the 245 |c as well as title information?
+
 Output to a file (e.g. CSV)
 
 

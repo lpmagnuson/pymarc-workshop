@@ -17,7 +17,7 @@ with open('marc.mrc', 'rb') as fh:
         #else remove 01cals_network
         if oclc_number.find("01cals_network") >= 0:
           oclc_number = oclc_number.replace('-01cals_network', '')
-          oclc_number = re.sub("[^0-9]", "", record['035']['a'])
+          oclc_number = re.sub("[^0-9]", "", oclc_number)
         else:
           #remove everything that remains except the numbers
           oclc_number = re.sub("[^0-9]", "", record['035']['a'])
