@@ -4,7 +4,7 @@ import re
 #import csv - the Python Comma-Separated Values library
 import csv
 
-#create a CSV file
+#create a CSV file - note tab delimiter would be '/t'
 csv_out = csv.writer(open('output.csv', 'w'), delimiter = ',', quotechar = '"', quoting = csv.QUOTE_ALL)
 
 #write a header row in your CSV file

@@ -1,6 +1,6 @@
 from pymarc import MARCReader
 
-#trim OCLC number prefixes (ocn, ocm, OCoLC)
+#script to trim OCLC number prefixes (ocn, ocm, OCoLC)
 with open('marc.mrc', 'rb') as fh:
   reader = MARCReader(fh)
   for record in reader:
@@ -13,14 +13,14 @@ with open('marc.mrc', 'rb') as fh:
         oclc_number = record['035']['a']
         
         #remove OCN if present
-        if oclc_number.find("ocn") >= 0:
+        if oclc_number.find("ocn") = 0:
           oclc_number = oclc_number.replace('ocn', '')
         else:
           oclc_number = oclc_number
         
         #remove OCM if present - needs work!
-        if oclc_number.find("xyz") >= 0:
-          oclc_number = oclc_number.replace('xyz', '')
+        if oclc_number.find("ocm") = 0:
+          oclc_number = oclc_number.replace('ocm', '')
         else:
           oclc_number = oclc_number
         
