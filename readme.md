@@ -8,7 +8,7 @@ Prerequisite: You have installed Python onto your computer with pip and PyMarc.
 
 1. Download this GitHub repository onto a place you can easily access (e.g., Documents) on your command line tool (Terminal (OSX) or PowerShell (PC)).  
 2. Unzip it.
-3. Open your command line interface and navigate to the place you downloaded the directory, e.g.:
+3. Open your command line interface (Terminal on Mac, PowerShell on PC) and navigate to the place you downloaded the directory, e.g.:
 * cd Documents (cd stands for "change directory)
 * Other useful commands to know:
   * pwd (outputs your current location on the server)
