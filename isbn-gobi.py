@@ -12,9 +12,9 @@ account = '999999'
 #print all ISBNs (020|a)
 with open('marc.mrc', 'rb') as fh:
     reader = MARCReader(fh)
-    #loop through each record
+    #loop 1
     for record in reader:
-      #loop through each ISBN and print on new line
+      #loop 2
       for f in record.get_fields('020'):
         #make sure 020|a exists
         if f['a'] is not None:
