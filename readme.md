@@ -65,7 +65,7 @@ Run the oclc-regex-csv script and see what happens (hint: look in the directory 
 Can you modify the script (oclc-regex-csv) to output author information from the 245 |c as well as title information?
 
 ### Activity 4:
-Examine and run isbn-gobi.py.  What does this script do?  
+Examine and run isbn-gobi.py.  In the comments in the code, there are two loops (loop 1 and loop 2).  What does each loop do?
 
 
 
