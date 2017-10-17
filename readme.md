@@ -44,7 +44,7 @@ ocm52381684
 
 
 ### Activity 1:
-How can you adjust the script to get rid of the ocm prefix in two of the items?
+How can you adjust the oclc2 script to get rid of the ocm prefix in two of the items?
 
 
 ### Activity 2:
@@ -58,11 +58,14 @@ For example, a regular expression that would only match numbers looks like this:
 Python has a regular expression library called ‘re’ that you can include in your script in order to use Regular Expressions.  Take a look at the file  oclc-regex.py and run it in your command line.  What does this use of re do to the OCLC numbers in in the file?
 
 ### Activity 3:
-Like re, csv is a Python library.  It makes it easy to output data to a CSV file.
+Like re, csv is a Python library.  It makes it easy to output data to a CSV (comma-separated values) file.
 
 Run the oclc-regex-csv script and see what happens (hint: look in the directory where you’ve downloaded this code for a file that wasn’t there before).
 
 Can you modify the script (oclc-regex-csv) to output author information from the 245 |c as well as title information?
+
+### Activity 4:
+Examine and run isbn-gobi.py.  What does this script do?  
 
 
 
