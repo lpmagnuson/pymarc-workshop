@@ -20,7 +20,7 @@ with open('marc.mrc', 'rb') as fh:
         if f['a'] is not None:
           fisbn = (f['a'])
           #Only include numbers
-          fisbn = re.sub("[^0-9]", "", fisbn)
+          fisbn = re.sub("[^X0-9]", "", fisbn)
           #write to CSV file
           csv_out.writerow([fisbn, account])
           
