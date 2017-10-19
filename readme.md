@@ -4,6 +4,7 @@ Prerequisite: You have installed Python onto your computer with pip and PyMarc.
 * Mac OSX Instructions:  http://docs.python-guide.org/en/latest/starting/install3/osx/
 * PC Instructions: http://docs.python-guide.org/en/latest/starting/install3/win/
 * PyMARC installation instructions: https://github.com/edsu/pymarc
+  * Note: if you see the error "command not found" using pip, try `python -m pip install pymarc` (thanks to Rachel Tillay @ Tulane for this tip!)
 
 
 1. Download this GitHub repository onto a place you can easily access (e.g., Documents) on your command line tool (Terminal (OSX) or PowerShell (PC)).  
