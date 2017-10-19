@@ -14,7 +14,7 @@ Prerequisite: You have installed Python onto your computer with pip and PyMarc.
   * pwd (outputs your current location on the server)
   *  ls (lists the contents of a directory)
 * To run the first python script, type into the command line:
-* `python oclc1` (or `python3 oclc1`)
+* `python oclc1.py` (or `python3 oclc1.py`)
 
 You should see the following output:
 
@@ -29,7 +29,7 @@ ocn701325822-01cals_network
 
 4. To run the second script, type into the command line:
 
-`python3 oclc2`
+`python3 oclc2.py`
 
 You should see the following output:
 
