@@ -8,10 +8,11 @@ Prerequisite: You have installed Python onto your computer with pip and PyMarc.
 
 1. Download this GitHub repository onto a place you can easily access (e.g., Documents) on your command line tool (Terminal (OSX) or PowerShell (PC)).  
 2. Unzip it.
-3. Open your command line interface (Terminal on Mac, PowerShell on PC) and navigate to the place you downloaded the directory, e.g.:
-* cd Documents (cd stands for "change directory)
+3. Open your command line interface (Terminal on Mac, PowerShell on PC) and navigate to the place you downloaded the directory.  If in the Documents directory:
+* On a PC, try `cd C:/Users/yourusername/Documents/pymarc-workshop-master` (cd stands for "change directory"; make sure to swap out yourusername for your actual username, e.g., jsmith) 
+* On a Mac, try: `cd /Users/yourusername/Documents/pymarc-workshop-master`
 * Other useful commands to know:
-  * pwd (outputs your current location on the server)
+  * pwd (outputs your current location on your computer/server)
   *  ls (lists the contents of a directory)
 * To run the first python script, type into the command line:
 * `python oclc1.py` (or `python3 oclc1.py`)
