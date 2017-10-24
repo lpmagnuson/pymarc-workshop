@@ -1,6 +1,7 @@
 import csv
 import re
 import pymarc
+import sys
 
 #define a function
 def csvmarcwriter(file):
@@ -51,8 +52,9 @@ def csvmarcwriter(file):
   #close the output file
   outputfile.close()
 
-#call function, replacing 'records.csv' with any input file
-csvmarcwriter('records.csv')
-  
+file = sys.argv[1]
+csvmarcwriter(file)
+
+#To call the function, try:  python marc_writer.py records.csv
 
   
