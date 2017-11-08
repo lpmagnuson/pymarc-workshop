@@ -1,4 +1,4 @@
-# Questions Log
+# Questions Log from Webinar 2
 
 ## Q1: Hi, can you recommend a good way to learn the indentation rules in Python 3? I can't seem to get it right. [Q: 1:02 PM] 
 
